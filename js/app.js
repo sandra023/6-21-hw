@@ -79,6 +79,16 @@ greeting();
 // Change your code so that if the variable animal is anything other than a 
 // cow, it will print "Hey! You're not a cow."
 
+let animal = "cow";
+if (animal === "cow"){
+	console.log("mooooo");
+}
 
+const notACow = () =>{
+let animal = "pig";
+if (animal !== "cow"){
+	console.log("Hey your not a cow!");
+}}
+notACow();
 
 
