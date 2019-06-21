@@ -246,3 +246,23 @@ console.log(sumOfMultiples(100));
 // What real-life thing could you model with an array?
 // 3. Grocery List
 
+
+// B. Easy Does It
+// Create an array that contains three quotes and store it in a 
+// variable called quotes.
+const quotes = ["No pressure.", "Just do it.", "Prove them wrong"]
+console.log(quotes);
+// C. Accessing elements
+// Given the following array 
+const randomThings = [1, 10, "Hello", true]
+
+// How do you access the 1st element in the array?
+randomThings[0];
+
+// Change the value of "Hello" to "World".
+randomThings[2] = "World";
+
+// Check the value of the array to make sure it updated the array. 
+// How? Why, yes! console.log();
+console.log(randomThings);
+
