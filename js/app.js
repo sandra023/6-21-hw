@@ -132,6 +132,25 @@ for (let i = 11; i<=4000; i+=3){
 	console.log(i)
 }
 
+// B. Get even
+// Print out the numbers that are within the range of 1 - 100.
+for (let i = 1; i <= 100; i++){
+	console.log(i)
+}
+
+// Adjust your code to add a message next to even numbers only that 
+// says: "<-- is an even number".
+
+for (let i = 1; i <= 100; i++){
+	if (i % 2 === 0){
+		console.log(`${i} is an even number.`)
+	} else {
+		console.log(i);
+
+	}
+}
+
+
 
 
 
