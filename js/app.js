@@ -233,3 +233,16 @@ console.log(sumOfMultiples(100));
 //Did this anyway:}
 
 
+// III. Arrays & Control flow
+// A. Talk about it:
+
+// What are the things in an array called?
+// 1.Elements
+
+// Do Arrays guarantee those things will be in order?
+// 2. They will be in the order that you added them to the array, 
+// 	  You can sort them and move them around yourself afterwards.
+
+// What real-life thing could you model with an array?
+// 3. Grocery List
+
