@@ -91,4 +91,22 @@ if (animal !== "cow"){
 }}
 notACow();
 
+// E. Driver's Ed
+// Make a variable that holds a person's age. Be semantic.
+
+// Write code that will print out "Here are the keys!", if the age is 
+// 16 years or older, or, if the age is younger than 16, a message 
+// should print "Sorry, you're too young."
+
+const canTheyDrive = () =>{
+let age = 21
+if (age>= 16){
+	return 'Here are the keys.'
+} else {
+	return 'Sorry, you are too young.'
+}
+}
+console.log(canTheyDrive());
+
+
 
