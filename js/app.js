@@ -192,7 +192,7 @@ for (let i =0; i <=100; i++){
 
 const savingsAccount = () => {
 let bankAccount = 0;
-for(i = 1; i <=10; i ++){
+for(let i = 1; i <=10; i ++){
 	bankAccount += i;
 	} 
 return bankAccount
@@ -206,7 +206,7 @@ console.log(savingsAccount());
 
 const savingsAccount2 = () => {
 let bankAccount = 0;
-for(i = 1; i <=100; i ++){
+for(let i = 1; i <=100; i ++){
 	bankAccount += i*2;
 	} 
 return bankAccount
@@ -214,5 +214,22 @@ return bankAccount
 
 console.log(savingsAccount2());
 
+// E. Multiples of 3 and 5
+// Find the sum of all the multiples of 3 or 5 below 1000. If a previous 
+// question you've done has helpful bits of code in it that partially 
+// solves this problem, look back at them.
+
+const sumOfMultiples = (number) =>{
+	let sums = 0;
+for (let i = 1; i < number; i++){
+	if (i % 3 === 0 || i % 5 === 0){
+		sums += i;
+	}	
+}
+return sums
+}
+console.log(sumOfMultiples(100));
+
+//Did this anyway:}
 
 
