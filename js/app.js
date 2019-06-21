@@ -185,4 +185,34 @@ for (let i =0; i <=100; i++){
 	}
 }
 
+// D. Savings account
+// Write code that will save the sum of all the numbers between 1 - 10 
+// to a variable called bank_account.
+// Check your work! Your banck_account should have $55 in it.
+
+const savingsAccount = () => {
+let bankAccount = 0;
+for(i = 1; i <=10; i ++){
+	bankAccount += i;
+	} 
+return bankAccount
+}
+
+console.log(savingsAccount());
+
+
+//You got a bonus! Your pay is now doubled each week. Write code that 
+// will save the sum of all the numbers between 1 - 100 multiplied by 2.
+
+const savingsAccount2 = () => {
+let bankAccount = 0;
+for(i = 1; i <=100; i ++){
+	bankAccount += i*2;
+	} 
+return bankAccount
+}
+
+console.log(savingsAccount2());
+
+
 
