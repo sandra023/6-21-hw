@@ -314,6 +314,22 @@ console.log(myArray);
 //Yes, I mutated (changed) the array. The indicies not have different elements.
 //It retured an array where the in the exact opposite indicies
 
+// F. Biggie Smalls
+// Create a variable that contains an integer.
+let integer = 1;
+// Write an if ... else statement that:
+// console.log()s "little number" if the number is entered is less than 100
+// console.log()s big number if the number is greater than or equal to 100.
+
+const biggerOrLessThan100 = () =>{
+	if(integer<100){
+		return "little number"
+	} else {
+		return "big number"
+	}
+}
+console.log(biggerOrLessThan100());
+
 
 
 
