@@ -331,9 +331,23 @@ const biggerOrLessThan100 = () =>{
 console.log(biggerOrLessThan100());
 
 
+// G. Monkey in the Middle
+// Write an if ... else if ... else statement:
+// console.log() little number if the number entered is less than 5.
+// If the number entered is more than 10, log big number.
+// Otherwise, log "monkey". 
 
-
-
+const monkeyInTheMiddle = (number) => {
+	if(number <5){
+		return "Little Number"
+	} else if(number > 10){
+		return "Big Number"
+		} else {
+				return "monkey"
+			}
+		}
+	
+console.log(monkeyInTheMiddle(6));
 
 
 
