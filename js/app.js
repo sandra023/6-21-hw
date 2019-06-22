@@ -407,7 +407,7 @@ console.log(kristynsCloset);
 console.log(`Thom is wearing a ${thomsCloset[0][0]} today.`);
 
 // In the same way, access one item from Thom's pants array.
-console.log(`Thom is wearing a ${thomsCloset[0][0]} and ${thomsCloset[1][1]} today.`);
+console.log(`Thom is wearing a ${thomsCloset[0][2]} and ${thomsCloset[1][1]} today.`);
 
 // Access one item from Thom's accessories array.
 thomsCloset[2][1];
@@ -416,7 +416,7 @@ console.log(thomsCloset[2][1]);
 
 // Log a sentence about what Thom's wearing. Example: "Thom is looking fierce 
 // in a grey button-up, jeans and wool scarf!"
-console.log(`Doesn't Thom look amazing in his ${thomsCloset[0][0]} and ${thomsCloset[2][2]} today?!`);
+console.log(`Doesn't Thom look amazing in his ${thomsCloset[0][3]} and ${thomsCloset[2][2]} today?!`);
 
 // Get more specific about what kind of PJs Thom's wearing this winter. Modify 
 // the name of his PJ pants to Footie Pajamas.
@@ -600,6 +600,43 @@ const reverseWordOrder = (wordString) =>{
 console.log(reverseWordOrder("Ishmael me Call"));
 console.log(reverseWordOrder("I use Lâncome on my comb"));
 
+
+// K. Get down and dirty with Math.random()
+// Write a function that will return a random integer between 1 and 10. Test it.
+const randomInteger = () => { 
+return Math.floor(Math.random()*11);
+}
+console.log(randomInteger());
+
+// Write a function that will return a random integer between 10 and 100. Test it.
+const randomInteger2 = () => { 
+return Math.floor(Math.random()*100)+10;
+}
+console.log(randomInteger2());
+
+
+// Write a function that will return a random number between 532 and 13267. Test it.
+
+const randomInteger3 = () => {
+return Math.floor(Math.random()*13267)+532;
+}
+console.log(randomInteger3());
+
+// Write a function that will return a random number between 1 and 10. Test it.
+const randomNumber = () => {
+ return Math.random() * (10-1)+1;
+}
+console.log(randomNumber());
+
+// Add a few more quotes to the quotes array from question III-B-1 above. 
+// Write a function that will take an array as a parameter, and return a 
+// random element from that array. Call your function a few times, passing 
+// in the quotes array. Give it a nice semantic name like getRandomElement.
+
+const getRandomElement = (array) =>{
+	return array[Math.floor(Math.random()*array.length)];
+}
+	console.log(getRandomElement(["No pressure", "Just do it", "Prove them wrong", "Sieze the day"]));
 
 
 
