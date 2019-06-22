@@ -479,14 +479,20 @@ console.log(calculateCube(5));
 const isVowel = (letter) =>{
 	let vowelArray = ["a","e","i","o","u"];
 for (let i = 0; i <vowelArray.length; i++){
-	if(letter == vowelArray[i]){
+	if(letter.toLowerCase() == vowelArray[i]){
 		return `${letter} is a vowel`
 	} else {
 	return `${letter} is not a vowel`
 }
 }
 }
-console.log(isVowel("b"));
+console.log(isVowel("B"));
+console.log(isVowel("A"));
+
+// E. getTwoLengths
+// Write a function getTwoLengths that accepts two parameters (strings). 
+// The function should return an array of numbers where each number is 
+// the length of the corresponding string.
 
 
 
