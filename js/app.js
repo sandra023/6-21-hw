@@ -424,5 +424,16 @@ console.log(`Doesn't Thom look amazing in his ${thomsCloset[0][0]} and ${thomsCl
 thomsCloset[1][2] = "Footie Pajamas";
 console.log(thomsCloset[1][2]);
 
+// IV. Functions
+// A. printGreeting
+// Do you think you could write a function called printGreeting with a 
+// parameter name that returns a greeting with the argument interpolated 
+// into the greeting?
+
+const printGreeting = (name) => {
+	return `Hi ${name}, how are you doing?`
+}
+
+console.log(printGreeting('Ben'));
 
 
