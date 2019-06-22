@@ -566,9 +566,39 @@ const transmogrify = (num1,num2,num3) => {
 
 console.log(transmogrify(5,3,2));
 
+// J. reverseWordOrder v2
+// Without using .split(), .reverse(), or .join(), write a function 
+// reverseWordOrder that accepts a single argument, a string. The 
+// function should return a string with the order of the words reversed. 
+// Don't worry about punctuation.
 
+// See if you can do it without googling.
 
+// Remember: You can index directly into a string:
 
+const reverseWordOrder = (wordString) =>{
+	reverseWordsArray = [];
+	wordsArray = [];
+	buffer = " ";
+	
+	for (let i = 0; i<wordString.length; i++){
+		buffer += wordString[i];
+		if(wordString[i]== " "){
+			wordsArray.push(buffer);
+			buffer = " ";
+		}
+	}
+	if (buffer.length > 0){
+		wordsArray.push(buffer);
+	}
+	for (let i =wordsArray.length; i>=0; i--){
+		reverseWordsArray += wordsArray[i];
+	}
+	return reverseWordsArray
+}
+
+console.log(reverseWordOrder("Ishmael me Call"));
+console.log(reverseWordOrder("I use Lâncome on my comb"));
 
 
 
