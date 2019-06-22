@@ -485,9 +485,13 @@ console.log(isVowel("A"));
 // The function should return an array of numbers where each number is 
 // the length of the corresponding string.
 
+const getTwoLengths = (string1,string2) => {
+	stringLength = [string1.length, string2.length];
+	return stringLength
+	
+}
 
-
-
+console.log(getTwoLengths('hello','you'));
 
 
 
