@@ -458,9 +458,35 @@ const calculateCube = (number) =>{
 
 console.log(calculateCube(5));
 
+// D. isVowel
+// Write a function isVowel that takes a character (i.e. a string 
+// of length 1) and returns true if it is a vowel, false otherwise. 
+// The vowel could be upper or lower case. Test your function on every 
+// vowel and make sure it's working. In general, when you write 
+// functions, take a minute to test them with different values to make 
+// sure they behave the way you want.
 
+// const isVowel = (letter) =>{
+// 	if (letter.toLowerCase() == "a" || "e" || "i" || "o" || "u"){
+// 		return `${letter} is a vowel`
+// 	} else {
+// 	return `${letter} is not a vowel`
+// }
 
+// }
+// console.log(isVowel("a"));
 
+const isVowel = (letter) =>{
+	let vowelArray = ["a","e","i","o","u"];
+for (let i = 0; i <vowelArray.length; i++){
+	if(letter == vowelArray[i]){
+		return `${letter} is a vowel`
+	} else {
+	return `${letter} is not a vowel`
+}
+}
+}
+console.log(isVowel("b"));
 
 
 
