@@ -436,4 +436,32 @@ const printGreeting = (name) => {
 
 console.log(printGreeting('Ben'));
 
+// B. printCool
+// Write a function printCool that accepts one parameter, name as an argument. 
+// The function should print the name and a message saying that that person 
+// is cool.
+
+const printCool = (name) =>{
+	return `Your cool ${name}!`
+}
+
+console.log(printCool('Docter Who'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
