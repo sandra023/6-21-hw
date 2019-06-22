@@ -488,15 +488,23 @@ console.log(isVowel("A"));
 const getTwoLengths = (string1,string2) => {
 	stringLength = [string1.length, string2.length];
 	return stringLength
-	
 }
 
 console.log(getTwoLengths('hello','you'));
 
+// F. getMultipleLengths
+// Write a function getMultipleLengths that accepts a single parameter 
+// as an argument: an array of strings. The function should return an array 
+// of numbers where each number is the length of the corresponding string.
 
-
-
-
+const getMultipleLengths = (array) =>{
+	wordsArrayStringLength = []
+	for (let i = 0; i <array.length; i++){
+		wordsArrayStringLength.push(array[i].length); 
+	}
+return wordsArrayStringLength
+}
+console.log(getMultipleLengths(['hello','you','pretty','thing']));
 
 
 
