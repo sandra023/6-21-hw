@@ -448,6 +448,16 @@ const printCool = (name) =>{
 console.log(printCool('Docter Who'));
 
 
+// C. calculateCube
+// Write a function calculateCube that takes a single number and 
+// prints the volume of a cube made from that number.
+
+const calculateCube = (number) =>{
+	return number*number*number 
+}
+
+console.log(calculateCube(5));
+
 
 
 
