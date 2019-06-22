@@ -466,15 +466,6 @@ console.log(calculateCube(5));
 // functions, take a minute to test them with different values to make 
 // sure they behave the way you want.
 
-// const isVowel = (letter) =>{
-// 	if (letter.toLowerCase() == "a" || "e" || "i" || "o" || "u"){
-// 		return `${letter} is a vowel`
-// 	} else {
-// 	return `${letter} is not a vowel`
-// }
-
-// }
-// console.log(isVowel("a"));
 
 const isVowel = (letter) =>{
 	let vowelArray = ["a","e","i","o","u"];
