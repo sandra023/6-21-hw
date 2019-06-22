@@ -507,6 +507,47 @@ return wordsArrayStringLength
 console.log(getMultipleLengths(['hello','you','pretty','thing']));
 
 
+// G. maxOfThree
+// Define a function maxOfThree that takes three numbers as arguments and 
+// returns the largest of them. If all numbers are the same, it doesn't 
+// matter which one is returned. If the two largest numbers are the 
+// same, one of them should be returned. Be sure to test it with larger 
+// values in each of the three locations.
+
+const maxOfThree = (num1,num2,num3) =>{
+	let maxNumber = 0
+	if(num1 > num2 && num1 > num3){
+		maxNumber = num1
+	} else if (num2 > num1 && num2 > num3){
+		maxNumber = num2 
+	} else {
+		maxNumber = num3
+	}
+	return maxNumber
+}
+		
+console.log(maxOfThree(11,5,1));
+console.log(maxOfThree(1,24,8000));
+console.log(maxOfThree(45,300000,12));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
