@@ -730,7 +730,7 @@ console.log(user.friend.name);
 console.log(user.friend.location);
 
 // CHANGE the friend's age to 55
-user.friend.age = 55
+user.friend.age = 55;
 console.log(user.friend.age);
 
 // The friend has purchased "The One Ring". Use .push() to add "The One Ring" 
@@ -746,6 +746,27 @@ console.log(user.friend.purchased);
 user.friend.purchased.push("A latte");
 
 console.log(user.friend.purchased[1]);
+
+// F. Loops
+// Write a for loop that iterates over the User's purchased array 
+// (NOT the friend's purchased array), and prints each element to the console.
+// Write a for loop that iterates over the Friend's purchased array, and prints 
+// each element to the console.
+
+
+for(let i = 0; i < user.purchased.length; i++){
+	console.log(user.purchased[i]);
+}
+
+for (let i = 0; i <user.friend.purchased.length; i++){
+	console.log(user.friend.purchased[i]);
+}
+
+
+
+
+
+
 
 
 
