@@ -670,8 +670,16 @@ user.email = "DrWho@earth.com";
 user.age ++; //user.age += 1 also works
 console.log(user);
 
+// C. Adding keys and values
+// You have decided to add your user's location to the data that you want 
+// to collect.
 
+// Without changing the original user object, add a new key location to the 
+// object, and give it a value or some-or-other location (a string).
 
+user.location = "Barcelona";
+
+console.log(user);
 
 
 
