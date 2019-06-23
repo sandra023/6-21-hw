@@ -649,10 +649,11 @@ const getRandomElement = (array) =>{
 const user = {
 	name: "Dorctor Who",
 	email: "tardis@galifrey.com",
+	age: 912,
 	purchased: []
 }
 
-
+console.log(user);
 
 
 
